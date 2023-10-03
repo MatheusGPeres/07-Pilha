@@ -90,7 +90,7 @@ void push()
 	if (topo == NULL) {
 		topo = novo;
 		topo->prox = NULL;
-		return;
+
 	}
 	else {
 		novo->prox = topo;
